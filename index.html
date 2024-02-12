@@ -38,10 +38,16 @@
           font-family: 'Ponomar Unicode';
         } 
 
+        .content {
+        flex: 1;
+        padding-bottom: 100px; /* Padding against the footer */
+        }
+
         body {
             background-color: #f8f9fa;
             color: #495057;
             min-height: 200vh; /* vh = viewport height */
+            overflow: auto;
         }
 
         .red {
@@ -89,8 +95,7 @@
         }
 
       .footer {
-        font-family: 'EB Garamond', serif;
-
+          font-family: 'EB Garamond', serif;
           position: fixed;
           left: 0;
           bottom: 0;
@@ -106,9 +111,11 @@
 </head>
 <body>
 
+<div class="content">
+
 <div class="container mt-5">
 
-<h1><span class = "red">Church Slavonic Letters</span> <span class = "italics-english">for English Speakers</span></h1> 
+<h1><span class = "red">Church Slavonic Letters</span> <span class = "italics-english">for American English Speakers</span></h1> 
 <h2><span class = "red">Церковнославянский язык</span> для англоговорящих</h2> </br>
 
     <div class="row">
@@ -395,6 +402,19 @@
                     <h5 class="letter-name-slavonic">ѹ҆́​къ</h5>
                     <h5 class="letter-name-russian">ѹ҆́​къ</h5>
 
+                    <p class="pronunciation-hint">Pronounced similarly to "u" in "put."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ф ф</h5>
+
+                    <h5 class="letter-name-slavonic">фе́ртъ</h5>
+                    <h5 class="letter-name-russian">фе́ртъ</h5>
+
                     <p class="pronunciation-hint">Pronounced as "f" in "face."</p>
                 </div>
             </div>
@@ -430,12 +450,168 @@
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Ф ф</h5>
+                    <h5 class="card-title">Ц ц</h5>
 
-                    <h5 class="letter-name-slavonic">фе́ртъ</h5>
-                    <h5 class="letter-name-russian">фе́ртъ</h5>
+                    <h5 class="letter-name-slavonic">цы̀</h5>
+                    <h5 class="letter-name-russian">цы̀</h5>
 
-                    <p class="pronunciation-hint">Pronounced similarly to "u" in "put."</p>
+                    <p class="pronunciation-hint">Pronounced as "ts" in "cats."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ч ч</h5>
+
+                    <h5 class="letter-name-slavonic">че́рвь</h5>
+                    <h5 class="letter-name-russian">че́рвь</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "ch" in "church."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ш ш</h5>
+
+                    <h5 class="letter-name-slavonic">ша̀</h5>
+                    <h5 class="letter-name-russian">ша̀</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "sh" in "shush."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Щ щ</h5>
+
+                    <h5 class="letter-name-slavonic">ща̀ (шта̀)</h5>
+                    <h5 class="letter-name-russian">ща̀ (шта̀)</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "shch" in "fresh cheese."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ъ ъ</h5>
+
+                    <h5 class="letter-name-slavonic">є҆́ръ</h5>
+                    <h5 class="letter-name-russian">є҆́ръ</h5>
+
+                    <p class="pronunciation-hint">Indicates the hardening of the preceding consonant.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ы ы</h5>
+
+                    <h5 class="letter-name-slavonic">є҆ры̀</h5>
+                    <h5 class="letter-name-russian">є҆ры̀</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "i" in "bill."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ь ь</h5>
+
+                    <h5 class="letter-name-slavonic">є҆́рь</h5>
+                    <h5 class="letter-name-russian">є҆́рь</h5>
+
+                    <p class="pronunciation-hint">Softens the preceding consonant.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ѣ ѣ</h5>
+
+                    <h5 class="letter-name-slavonic">ꙗ҆́ть</h5>
+                    <h5 class="letter-name-russian">ꙗ҆́ть</h5>
+
+                    <p class="pronunciation-hint">A historical letter pronounced in various ways across different Slavic regions, often as "e" or "ie."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ю ю</h5>
+
+                    <h5 class="letter-name-slavonic">ю҆̀</h5>
+                    <h5 class="letter-name-russian">ю҆̀</h5>
+
+                    <p class="pronunciation-hint">Pronounced like "you."</p>
+                </div>
+            </div> 
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ꙗ ꙗ</h5>
+
+                    <h5 class="letter-name-slavonic">ꙗ҆̀</h5>
+                    <h5 class="letter-name-russian">ꙗ҆̀</h5>
+
+                    <p class="pronunciation-hint">Pronunced similar to "ya" like "yaw" or "yawning."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ѧ ѧ</h5>
+
+                    <h5 class="letter-name-slavonic">ю҆́съ ма́лый</h5>
+                    <h5 class="letter-name-russian">ю҆́съ ма́лый</h5>
+
+                    <p class="pronunciation-hint">Pronunced similar to "ya" like "yaw" or "yawning."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ѯ ѯ</h5>
+
+                    <h5 class="letter-name-slavonic">ксѝ</h5>
+                    <h5 class="letter-name-russian">ксѝ</h5>
+
+                    <p class="pronunciation-hint">Pronounced similar to "ks" in "box."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-6 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Ѱ ѱ</h5>
+
+                    <h5 class="letter-name-slavonic">псѝ</h5>
+                    <h5 class="letter-name-russian">псѝ</h5>
+
+                    <p class="pronunciation-hint">Pronounced sound similar to "ps" in "lapse."</p>
                 </div>
             </div>
         </div>
@@ -450,6 +626,19 @@
 
                     <p class="pronunciation-hint">Pronounced similar to "th" in "this" in some texts, but in Russian Church usage, it's often pronounced as "f."</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-6 mb-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Ѵ ѵ</h5>
+
+                <h5 class="letter-name-slavonic">ѵ҆́жица</h5>
+                <h5 class="letter-name-russian">ѵ҆́жица</h5>
+
+                <p class="pronunciation-hint">Pronounced as "i" in "machine" or "u" in "rule."</p>
             </div>
         </div>
     </div>
@@ -500,9 +689,11 @@
 
 </div>
 
+</div>
+
 <footer class="footer">
   <div class="container">
-      <p class="text-center">© 2024 <a href="https://twitter.com/digiconfucius">Digital Confucius</a> | <a href="./privacy.html">Privacy Policy</a> | <a href="./references.html">References</a> </p>
+      <p class="text-center">© 2024 <a href="https://twitter.com/digiconfucius">Digital Confucius</a> | <a href="./privacy.html">Privacy Policy</a> | <a href="./references.html">References</a> | <a href="https://digitalconfucius.github.io/daily-bible/">Daily Orthodox Bible</a> </p>
   </div>
 </footer>
 
