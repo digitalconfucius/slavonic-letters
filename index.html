@@ -23,6 +23,8 @@
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="https://slavonic.github.io/css/fonts.css" type="text/css">
 
@@ -32,11 +34,35 @@
           font-family: 'EB Garamond', serif;
         } 
 
-        .card-title {
+        h2 {
           font-family: 'Ponomar Unicode';
+        } 
+
+        .red {
+          color: #B22222; /* Roman looking red / Orthodox feast day red */
         }
 
-        .card-text {
+        .italics-english {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+        }
+
+        .card-title {
+            font-size: 3em;
+          font-family: 'Ponomar Unicode';
+          color: #B22222;
+        }
+
+        .letter-name-slavonic {
+          font-family: 'Ponomar Unicode';
+          font-size: 2em;
+        }
+
+        .letter-name-russian {
+            font-family: "Lora", serif;
+        }
+
+        .pronunciation-hint {
           font-family: 'EB Garamond', serif;
           font-size: 1.1em;
         } 
@@ -47,7 +73,7 @@
             color: #b0b4b7;
         }
 
-      .privacy-policy {
+      .footer {
         font-family: 'EB Garamond', serif;
 
           position: fixed;
@@ -67,15 +93,20 @@
 
 <div class="container mt-5">
 
-<h1>Church Slavonic Letters for English Speakers</h1> </br>
+<h1><span class = "red">Church Slavonic Letters</span> <span class = "italics-english">for English Speakers</span></h1> 
+<h2><span class = "red">Церковнославянский язык</span> для англоговорящих</h2> </br>
 
     <div class="row">
-      
+
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">А</h5>
-                    <p class="card-text">Pronounced as "a" in "father."</p>
+                    <h5 class="card-title">А а</h5>
+
+                    <h5 class="letter-name-slavonic">а҆́зъ</h5>
+                    <h5 class="letter-name-russian">а҆́зъ</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "a" in "father."</p>
                 </div>
             </div>
         </div>
@@ -83,8 +114,12 @@
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Б</h5>
-                    <p class="card-text">Pronounced as "b" in "bed."</p>
+                    <h5 class="card-title">Б б</h5>
+
+                    <h5 class="letter-name-slavonic">а҆́зъ</h5>
+                    <h5 class="letter-name-russian">а҆́зъ</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "b" in "bed."</p>
                 </div>
             </div>
         </div>
@@ -92,8 +127,12 @@
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">В</h5>
-                    <p class="card-text">Pronounced as "v" in "victory."</p>
+                    <h5 class="card-title">В в</h5>
+
+                    <h5 class="letter-name-slavonic">бꙋ́ки</h5>
+                    <h5 class="letter-name-russian">бꙋ́ки</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "v" in "victory."</p>
                 </div>
             </div>
         </div>
@@ -102,25 +141,38 @@
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Г</h5>
-                    <p class="card-text">Pronounced as "g" in "go."</p>
+                    <h5 class="card-title">Г г</h5>
+
+                    <h5 class="letter-name-slavonic">глаго́ль</h5>
+                    <h5 class="letter-name-russian">глаго́ль</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "g" in "go."</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Д</h5>
-                    <p class="card-text">Pronounced as "d" in "dog."</p>
+                    <h5 class="card-title">Д д</h5>
+
+                    <h5 class="letter-name-slavonic">добро̀</h5>
+                    <h5 class="letter-name-russian">добро̀</h5>
+
+                    <p class="pronunciation-hint">Pronounced as "d" in "dog."</p>
                 </div>
             </div>
         </div>
+
         <!-- Example of a unique letter -->
         <div class="col-md-4 col-6 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Ѳ</h5>
-                    <p class="card-text">Fita, similar to "th" in "this"; often pronounced as "f."</p>
+                    <h5 class="card-title">Ѳ ѳ</h5>
+
+                    <h5 class="letter-name-slavonic">ѳита̀</h5>
+                    <h5 class="letter-name-russian">ѳита̀</h5>
+
+                    <p class="pronunciation-hint">Fita, often pronounced as "f."</p>
                 </div>
             </div>
         </div>
@@ -131,9 +183,9 @@
 
 
 
-<footer class="privacy-policy">
+<footer class="footer">
   <div class="container">
-      <p class="text-center">© 2024 <a href="https://twitter.com/digiconfucius">Digital Confucius</a> | <a href="./privacy.html">Privacy Policy</a> </p>
+      <p class="text-center">© 2024 <a href="https://twitter.com/digiconfucius">Digital Confucius</a> | <a href="./privacy.html">Privacy Policy</a> | <a href="./references.html">References</a> </p>
   </div>
 </footer>
 
