@@ -129,7 +129,9 @@
 <h1><span class = "red">Slavonic Letter Game</span></h1> 
 <h2><span class = "red">Славонїк Леттер Геїм</span></h2> </br>
 
-<p class="english-text">Are you interested in learning Slavonic letters, but too lazy to learn Russian grammar, or even to learn any Slavic words at all? No problem! Try this Slavonic Letter Game to turn any English text into Slavonic-looking words. Delight your friends, astonish your priest, and frustrate your enemies!</p>
+<p class="english-text">Are you interested in learning Slavonic letters, but too lazy to learn Russian grammar, or even to learn any Slavic words at all? No problem! Try this Slavonic Letter Game to turn any English text into Slavonic-looking words. Delight your friends, astonish your priest, and frustrate your enemies!
+
+</p>
 
 <textarea class="form-control" id="inputText" rows="3"></textarea> 
 
@@ -137,7 +139,9 @@
 
 <button class = "btn-russian" onclick="generate()">Сꙋвмїт</button> 
 
-</br></br>
+</br>
+
+</br> <p class = "english-text">For more serious learning, check out our <a href="./index.html">home page</a>. </p>
 
 <div class="card">
 
@@ -193,46 +197,19 @@
         'U': 'У',
         'V': 'В',
         'W': 'В',
-        'X': 'КС',
+        'X': 'Ѯ',
         'Y': 'Ы',
         'Z': 'З',
-        
-        'a': 'а',
-        'b': 'б',
-        'c': 'с',
-        'd': 'д',
-        'e': 'е',
-        'f': 'ф',
-        'g': 'г',
-        'h': 'х',
-        'i': 'и',
-        'j': 'ж',
-        'k': 'к',
-        'l': 'л',
-        'm': 'м',
-        'n': 'н',
-        'o': 'о',
-        'p': 'п',
-        'q': 'к',
-        'r': 'р',
-        's': 'с',
-        't': 'т',
-        'u': 'у',
-        'v': 'в',
-        'w': 'в',
-        'x': 'кс',
-        'y': 'ы',
-        'z': 'з',
     };
 
     // Generate lowercase mappings
-    /*
+    
     Object.keys(replacementMap).forEach(key => {
         const lowercaseKey = key.toLowerCase();
         const lowercaseValue = replacementMap[key].toLowerCase();
         replacementMap[lowercaseKey] = lowercaseValue;
     });
-    */
+    
 
     // Function to replace based on the map
     function replaceFromMap(match) {
