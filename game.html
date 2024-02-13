@@ -176,7 +176,7 @@
     let replacementMap = {
         'A': 'А',
         'B': 'Б',
-        'C': 'С',
+        'C': 'К',
         'D': 'Д',
         'E': 'Е',
         'F': 'Ф',
@@ -200,6 +200,27 @@
         'X': 'Ѯ',
         'Y': 'Ы',
         'Z': 'З',
+
+        'CY': 'СИ',
+        'CE': 'СЄ',
+        'CI': 'СИ',
+        
+        'YA': 'Ѧ',
+        'YE': 'Є',
+        'YO': 'Ю',
+
+        'PS': 'Ѱ',
+        'TH': 'Ѳ',
+
+        'SH': 'Ш',
+        'SCH': 'Щ',
+        
+        'CH': 'Ч',
+        'TS': 'Ц',
+
+        'OI': 'Ѿ',
+
+        'EE': 'І',
     };
 
     // Generate lowercase mappings
@@ -210,7 +231,6 @@
         replacementMap[lowercaseKey] = lowercaseValue;
     });
     
-
     // Function to replace based on the map
     function replaceFromMap(match) {
     // Lookup the match in the replacement map and return the replacement
